@@ -1,0 +1,143 @@
+.footer {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr;
+  place-content: center;
+  padding: 30px;
+}
+.footer-1 h1 {
+  font-weight: 800;
+  color: #000;
+}
+.icons i:hover{
+    cursor: pointer;
+}
+.footer-1 p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #9e9fa5;
+}
+.footer-1 i {
+  margin-top: 20px;
+  font-size: 20px;
+  margin: 15px;
+  color: #9e9fa5;
+}
+
+.footer-2 {
+  margin-top: 10px;
+}
+.footer-2 h4 {
+  font-weight: 700;
+}
+.footer-2 p {
+  font-size: 14px;
+  color: #9e9fa5;
+}
+.footer-2 p:hover{
+  color: #FF7235;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.customf-hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 20px 0;
+  width: 50%;
+}
+.footerz{
+    height: 10vh;
+    padding: 0px 40px; 
+}
+.footerz .col-12{
+    display: flex;
+    justify-content: space-between;
+}
+.footerz p{
+    font-size: 14px;
+    color: #9e9fa5;
+}
+.payment-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    gap: 5px;
+    color: #9e9fa5;
+}
+.icons i:hover{
+  cursor: pointer;
+  color: #FF7235;
+}
+.payment-icons i:hover{
+    cursor: pointer;
+    color: #FF7235;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+    margin-top: 10px;
+    height: 30vh;
+    grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;
+  }
+.footer-1 h1 {
+    font-weight: 800;
+  }
+  .footer-1 p {
+    font-size: 13px;
+  }
+  .footer-1 i {
+    font-size: 17px;
+    margin: 10px;
+  }
+
+  .footer-2 h4 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .footer-2 p {
+    font-size: 13px;
+    color: #9e9fa5;
+  }
+  .customf-hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 10px 0;
+    width: 50%;
+  }
+  .footerz {
+    height:5vh;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .footer {
+        margin-top: 15px;
+        height: 36vh;
+        grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;
+      }
+      .footerz {
+        height:7vh;
+      }
+}
+@media only screen and (max-width: 767px) {
+  .footer {
+    margin-top: 30px;
+    height: 70rem;
+    grid-template-columns: 1fr ;
+  }
+  .footerz {
+    height:7rem;
+    text-align: center; 
+  }
+  .footerz .col-12{
+    display: block;
+}
+  .payment-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}

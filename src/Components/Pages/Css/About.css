@@ -1,0 +1,63 @@
+.about{
+    margin-top: 100px;
+    text-align: center;
+}
+.aboutus img{
+    width: 650px;
+}
+.ourstory{
+    margin-top: 100px;
+}
+.ourvision{
+    margin-top: 100px;
+}
+.about h1{
+    text-align: center;
+    font-weight: 700;
+}
+.about img{
+    height: 450px;
+}
+.about p{
+    margin-top: 100px;
+    text-align: center;
+}
+.ourvision img{
+    width: 650px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .about{
+        height: auto;
+    }
+    .about img{
+        height: 300px;
+        width: 450px;
+    }
+    .about p{
+        margin-top: 10px;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .about{
+        height: auto;
+    }
+    .about img{
+        height: 300px;
+        width: 420px;
+    }
+    .about p{
+        margin-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .about{
+        height: auto;
+    }
+    .about img{
+        height: 250px;
+        width: 350px;
+    }
+    .about p{
+        margin-top: 20px;
+    }
+  }

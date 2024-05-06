@@ -1,0 +1,124 @@
+.cartmain {
+  margin-top: 50px;
+  height: auto;
+}
+.cartheadline h2 {
+  margin: 80px 0px 50px 0px;
+  text-align: center;
+  font-weight: 800;
+}
+.carthead {
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.cartdata {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.cartdata img {
+  height: 125px;
+}
+.cartdata span,
+p {
+  padding: 5px;
+}
+.fa-trash {
+  cursor: pointer;
+}
+.totalcoupon {
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #ff7235;
+}
+.carttotal{
+  margin-top: 40px;
+  padding: 10px;
+}
+.totalcart p{
+  display: inline;
+}
+.totalcart .right{
+  float: right;
+}
+.totalhr{
+  width: 100%;
+}
+.cartcoupon{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartcoupon button{
+
+    height: 50px;
+    width: 100px;
+    padding:10px ;
+    margin:10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #FF7235;
+} 
+.cartcoupon input{
+  height: 50px;
+  width: 250px;
+  padding:10px ;
+    margin:10px;
+    outline: none;
+    border: none;
+    color: #000;
+    background: #eee;
+}
+.totalcoupon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.totalcheckout{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.checkout{
+  height: 50px;
+  
+  padding:10px ;
+    margin:10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #FF7235;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+}
+@media only screen and (max-width: 767px) {
+  .cartmain {
+    padding: 20px;
+  }
+  .carthead {
+    height: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  }
+  .cartdata {
+    padding: 10px;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  }
+  .cartdata img {
+    height: 80px;
+    width: 65px;
+  }
+  .cartdata span,
+  p {
+    padding: 2px;
+    font-weight: 600;
+  }
+}

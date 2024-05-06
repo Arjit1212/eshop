@@ -1,0 +1,85 @@
+.all {
+  margin-top: 40px;
+  height: 40rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.allprod {
+  width: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  position: relative;
+  color: #000;
+}
+.allrow h3 {
+  font-weight: 600;
+}
+.allprod img {
+  height: 130px;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.allprod:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+.allprod:hover .allprod .prodbtn {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+.allprod-text {
+  display: inline-block;
+  padding: 0px 0px 0px 30px;
+}
+.custom-hr {
+  border: none;
+  height: 2px;
+  background-color: #333;
+  margin: 5px 0;
+  width: 70%;
+}
+.customi-hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 10px 0;
+  width: 90%;
+}
+#price {
+  font-weight: 600;
+  text-decoration-line: line-through;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .all {
+    margin-top: 40px;
+    height: 75rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .all {
+    height: 35rem;
+    margin-top: 50px;
+  }
+  .allprod {
+    width: 235px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .all {
+    margin-top: 50px;
+    height: 150rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+  }
+}

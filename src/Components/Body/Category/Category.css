@@ -1,0 +1,51 @@
+.child {
+  margin-top: 50px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  /* transition: 400ms; */
+  overflow: hidden;
+  display: inline-block;
+}
+.catimg{
+  transition: transform 0.5s ease;
+}
+.catimg:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  text-align: center;
+}
+.children {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .parent {
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .parent {
+    height: 1500px;
+  }
+  .child img {
+    height: 400px;
+  }
+  .banner img {
+    margin: 80px auto;
+  }
+}

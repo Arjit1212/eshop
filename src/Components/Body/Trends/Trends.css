@@ -1,0 +1,147 @@
+.trend-title {
+  text-align: center;
+  margin-top: 5rem;
+}
+.trend {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+}
+.trend img {
+  height: 370px;
+  width: 290px;
+}
+.trend-title h2 {
+  font-weight: 700;
+}
+.overlay-trend {
+  position: absolute;
+  top: 0;
+  width: 290px;
+  height: 370px;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.overlay-trend span {
+  font-size: 1.5rem;
+}
+.overlay-trend span #wishlist {
+  position: absolute;
+  left: 80%;
+}
+.overlay-trend h4 {
+  font-size: 2rem;
+}
+.overlay-trend button {
+  border: none;
+  padding: 10px;
+  height: 50x;
+  width: 160px;
+  border: none;
+  outline: none;
+  color: #eee;
+  font-size: 18px;
+  background: #ff7235;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.overlay-trend button:active {
+  color: black;
+  box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #000;
+}
+.overlay-trend h4,
+.overlay-trend span,
+.overlay-trend button {
+  visibility: hidden;
+  transition: opacity 0.3s all;
+}
+
+.overlay-trend:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.overlay-trend:hover p,
+.overlay-trend:hover i,
+.overlay-trend:hover h4,
+.overlay-trend:hover span,
+.overlay-trend:hover button {
+  visibility: visible;
+}
+.colorred {
+  color: red;
+}
+.fa-star {
+  color: #ff7235;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .trend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-trend {
+    width: 240px;
+    height: 340px;
+  }
+  .overlay-trend button {
+    padding: 10px;
+    height: auto;
+    width: auto;
+  }
+  .trend img {
+    width: 240px;
+    height: 340px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .trend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-trend {
+    width: 230px;
+    height: 320px;
+  }
+  .overlay-trend button {
+    padding: 10px;
+    height: auto;
+    width: auto;
+  }
+  .trend img {
+    width: 230px;
+    height: 320px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .trend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-trend {
+    width: 225px;
+    height: 300px;
+  }
+  .overlay-trend span {
+    font-size: 1.2rem;
+  }
+  .overlay-trend h4 {
+    font-size: 1.5rem;
+  }
+  .overlay-trend button {
+    padding: 10px;
+    font-size: 16px;
+    height: auto;
+    width: auto;
+  }
+  .trend img {
+    width: 225px;
+    height: 300px;
+  }
+}

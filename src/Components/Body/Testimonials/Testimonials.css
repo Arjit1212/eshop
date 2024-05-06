@@ -1,0 +1,50 @@
+
+
+#banner{
+  margin-top: 100px;
+  padding: 25px;
+  background-image: url('/public/assets/banner.jpg');
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top 70px center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+#banner h4{
+  color: #D8D8D8;
+}
+#banner h1{
+  color: #D8D8D8;
+}
+#banner button{
+  width: 140px;
+  padding:10px ;
+  margin:10px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #FF7235;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+  #banner{
+    height: 40vh;
+    background-position:right 35% center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  #banner{
+    height: 40vh;
+    background-position:right 35% center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #banner{
+    height: 30vh;
+    background-position:right 35% center;
+  }
+}

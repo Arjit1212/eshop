@@ -1,0 +1,158 @@
+.banner img {
+  display: block;
+  margin:100px auto;
+  width: 100%;
+}
+.mwa{
+  height: auto;
+
+}
+.mainmwa h2{
+  text-align: center;
+  font-weight: 800;
+}
+.cat {
+  margin-top: 50px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+.cat img {
+  height: 350px;
+  width: 280px;
+}
+.cat-title h2 {
+  font-weight: 700;
+}
+.overlay-cat {
+  position: absolute;
+  top: 0;
+  width: 280px;
+  height: 350px;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.overlay-cat span {
+  font-size: 1.5rem;
+}
+.overlay-cat span #wishlist {
+  position: absolute;
+  left: 80%;
+}
+.overlay-cat h4 {
+  font-size: 2rem;
+}
+.overlay-cat button {
+  border: none;
+  padding: 10px;
+  border: none;
+  padding: 10px;
+  height: 50px;
+  width: 160px;
+  border: none;
+  outline: none;
+  color: #eee;
+  font-size: 18px;
+  background: #FF7235;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.overlay-cat:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.overlay-cat h4,
+.overlay-cat span,
+.overlay-cat button {
+  visibility: hidden;
+  transition: opacity 0.3s all;
+}
+
+.overlay-cat button:active {
+  background: #000;
+  color: #fff;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+.overlay-cat:hover p,
+.overlay-cat:hover i,
+.overlay-cat:hover h4,
+.overlay-cat:hover span,
+.overlay-cat:hover button {
+  visibility: visible;
+}
+.colorred{
+  color: red;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-cat {
+    width: 240px;
+    height: 340px;
+  }
+  .overlay-cat button {
+    padding: 10px;
+    height: auto;
+    width: auto;
+  }
+  .cat img {
+    width: 240px;
+    height: 340px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-cat {
+    width: 230px;
+    height: 320px;
+  }
+  .overlay-cat button {
+    padding: 10px;
+    height: auto;
+    width: auto;
+  }
+  .cat img {
+    width: 230px;
+    height: 320px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  
+  .cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+  }
+  .overlay-cat {
+    width: 250px;
+    height: 300px;
+  }
+  .overlay-cat span {
+    font-size: 1.2rem;
+  }
+  .overlay-cat h4 {
+    font-size: 1.5rem;
+  }
+  .overlay-cat button {
+    padding: 10px;
+    font-size: 16px;
+    height: auto;
+    width: auto;
+  }
+  .cat img {
+    width: 250px;
+    height: 300px;
+  }
+}

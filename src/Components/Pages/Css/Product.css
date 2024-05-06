@@ -1,0 +1,128 @@
+.product {
+  padding: 100px;
+}
+.breadcrumbSM {
+  display: none;
+}
+.breadcrumb i {
+  padding: 5px;
+}
+.small-img-grp {
+  display: flex;
+  gap: 8px;
+}
+.imgfluid {
+  height: 420px;
+  width: 345px;
+}
+.imgfluid img {
+  position: relative;
+}
+.imgfluid p {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  opacity: 0.4;
+  transform: translate(-50%, -50%);
+}
+.small-img {
+  height: 100px;
+  width: 80px;
+  margin-top: 10px;
+}
+.product select {
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+.count-buttons button {
+  height: 25px;
+  width: 35px;
+  border: none;
+  outline: none;
+}
+.count-buttons span {
+  font-size: 20px;
+  padding: 5px;
+}
+.select {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.addtocart {
+  height: 50px;
+  width: auto;
+  border: none;
+  outline: none;
+  color: #eee;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  background: #ff7235;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+}
+.addtowishlist {
+  height: 50px;
+  width: auto;
+  border: none;
+  outline: none;
+  color: #eee;
+  padding: 0.7em 1.7em;
+  margin-right: 5px;
+  font-size: 18px;
+  background: #ff7235;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+}
+.product .pr {
+  display: grid;
+  place-content: center;
+}
+
+.addtocart:active {
+  color: black;
+  box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #000;
+}
+.addtowishlist:active {
+  color: black;
+  box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .imgfluid p {
+    top: auto;
+    left: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .imgfluid p {
+    top: auto;
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .product {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  .imgfluid {
+    height: 400px;
+  }
+  .imgfluid p {
+    top: 50%;
+    left: 50%;
+  }
+  .small-img {
+    height: 100px;
+    width: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .breadcrumbSM {
+    display: block;
+  }
+  .breadcrumbSM i {
+    padding: 5px;
+  }
+}

@@ -1,0 +1,50 @@
+.subscribe{
+    margin-top: 30px;
+    height: 150px;
+    background: #F7F8F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #B4B4B8;
+}
+.subscribe span{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.subscribe input{
+    outline: none;
+    margin:10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.subscribe button{
+    padding:10px ;
+    margin:10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #FF7235;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+   
+  }
+  @media only screen and (max-width: 767px) {
+    .subscribe{
+        margin-top: 10px;
+        text-align: center;
+        height: 150px;
+    }
+    .subscribe span{
+        font-size: 20px;
+    }
+    .subscribe input{
+        font-size: 10px;
+    }
+    .subscribe button{
+        font-size: 12px;
+    }
+  }
